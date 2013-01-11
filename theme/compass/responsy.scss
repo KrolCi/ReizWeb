@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1020px){
+	header{
+		span{
+			height: 100px;
+		}
+	}
+	#wrapper{
+		article{
+			width: 70%;
+			header{
+				padding:5px 0;
+				width: 100%;
+				
+			}
+		}
+		aside{
+			width: 29.3%;
+		}
+	}
+}
+@media only screen and (max-width: 800px){
+	header{
+		width: 100%;
+		padding: 0;
+		text-align: center;
+		margin: 0px;
+		height: 210px;
+		
+		h1{
+			padding-top: 10px;
+			font-size: 70px;
+		}
+		span{
+			margin: 5px;
+			width: 90%;
+			height: 100px;
+		}
+	}
+	nav{
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;
+	}
+	#wrapper{
+		width: 90%;
+		
+		article{
+			width: 100%;
+			header{
+				height: 20px;
+				width: 100%;
+				padding:5px 0px;
+			}
+			section{
+				text-align: center;
+			}
+		}
+		aside{
+			width: 100%;
+		}
+	}
+	footer{
+		width: 100%;
+		padding:5px 0px ;
+		text-align:center;
+	}
+}
+@media only screen and (max-width: 480px){
+	header{
+		width: 100%;
+		padding: 0;
+		text-align: center;
+		margin: 0px;
+		height: 210px;
+		
+		h1{
+			padding-top: 10px;
+			font-size: 60px;
+		}
+		span{
+			margin: 5px;
+			width: 90%;
+			height: 100px;
+		}
+	}
+	nav{
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;
+	}
+	#wrapper{
+		width: 90%;
+		
+		article{
+			width: 100%;
+			header{
+				height: 20px;
+				width: 100%;
+				padding:5px 0px;
+			}
+			
+			section{
+				#link{
+					width: 100%;
+					
+					#desc{
+						margin-top: 5px;
+						width: 100%;
+						display: block;
+						a{
+							
+							width:80%;
+						}
+					} 
+					
+					#demo{
+						width: 100%;
+						display: block;
+						
+						a{
+							width: 85%;
+						}
+					}
+				}
+			}
+		}
+		aside{
+			width: 100%;
+			
+			#none{
+				display: none;
+			}
+		}
+	}
+	footer{
+		width: 100%;
+		padding:5px 0px ;
+		text-align:center;
+	}
+}

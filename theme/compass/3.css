@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700);
+/* line 9, ../compass/3.scss */
+#wrapper article section { text-align: center; }
+
+/* line 13, ../compass/3.scss */
+nav { margin: 0 auto; background: whitesmoke; margin-top: 20px; max-width: 1024px; }
+/* line 20, ../compass/3.scss */
+nav ul li { display: inline; }
+/* line 22, ../compass/3.scss */
+nav ul li #on3 { color: #fff; background: #019CFF; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1); }
+
+/* line 34, ../compass/3.scss */
+#boton-retro { position: relative; color: white; text-decoration: none; background-color: #db5705; font-family: 'Yanone Kaffeesatz'; font-weight: 700; font-size: 3em; display: block; padding: 10px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7); -moz-box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7); box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7); margin: 15px auto; width: 150px; text-align: center; -webkit-transition: all .1s ease; -moz-transition: all .1s ease; -ms-transition: all .1s ease; -o-transition: all .1s ease; transition: all .1s ease; }
+
+/* line 61, ../compass/3.scss */
+#boton-retro:active { -webkit-box-shadow: 0px 3px 0px #db1f05, 0px 3px 6px rgba(0, 0, 0, 0.9); -moz-box-shadow: 0px 3px 0px #db1f05, 0px 3px 6px rgba(0, 0, 0, 0.9); box-shadow: 0px 3px 0px #db1f05, 0px 3px 6px rgba(0, 0, 0, 0.9); position: relative; top: 6px; }
+
+/* line 70, ../compass/3.scss */
+#wrapper article #publicidad { min-height: 10px; }
+/* line 75, ../compass/3.scss */
+#wrapper article section table { display: block; margin-top: 10px; margin-bottom: 10px; width: 100%; text-align: center; }
+/* line 84, ../compass/3.scss */
+#wrapper article section table tbody { width: 100%; display: block; }
+/* line 88, ../compass/3.scss */
+#wrapper article section table tbody tr { width: 100%; display: inline-block; }
+/* line 91, ../compass/3.scss */
+#wrapper article section table tbody tr td { width: 32%; text-align: center; display: inline-block; }
+
+/* line 104, ../compass/3.scss */
+iframe { -webkit-animation: move 3s infinite linear; -moz-animation: move 3s infinite linear; }
+
+@-webkit-keyframes move { /* line 109, ../compass/3.scss */
+  0% { -webkit-transform: rotate(0deg); }
+  /* line 110, ../compass/3.scss */
+  25% { -webkit-transform: rotate(2deg); }
+  /* line 111, ../compass/3.scss */
+  50% { -webkit-transform: rotate(0deg); }
+  /* line 112, ../compass/3.scss */
+  75% { -webkit-transform: rotate(-2deg); } }
+
+@-moz-keyframes move { /* line 115, ../compass/3.scss */
+  0% { -moz-transform: rotate(0deg); }
+  /* line 116, ../compass/3.scss */
+  25% { -moz-transform: rotate(2deg); }
+  /* line 117, ../compass/3.scss */
+  50% { -moz-transform: rotate(0deg); }
+  /* line 118, ../compass/3.scss */
+  75% { -moz-transform: rotate(-2deg); } }

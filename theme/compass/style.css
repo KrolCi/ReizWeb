@@ -1,0 +1,162 @@
+/* line 17, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+/* line 22, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html { line-height: 1; }
+
+/* line 24, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul { list-style: none; }
+
+/* line 26, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 28, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+/* line 30, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote { quotes: none; }
+/* line 103, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+/* line 32, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img { border: none; }
+
+/* line 116, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+/* line 12, ../compass/style.scss */
+b { font-weight: bold; }
+
+/* line 15, ../compass/style.scss */
+body { background: #bac0c0 url(../img/solid.png); overflow-x: hidden; }
+
+/* line 19, ../compass/style.scss */
+header { width: 79%; max-width: 1025px; text-align: center; margin: 0 auto; margin-top: 20px; padding-left: 10px; padding-right: 10px; padding-top: 20px; padding-bottom: 20px; vertical-align: top; background: #019cff; }
+/* line 34, ../compass/style.scss */
+header h1 { font-weight: bold; font-size: 80px; font-family: arial; color: whitesmoke; vertical-align: bottom; display: inline-block; margin-right: 15px; text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+/* line 57, ../compass/style.scss */
+header span { display: inline-block; background: whitesmoke; vertical-align: top; padding: 10px; width: 50%; color: #019cff; font-weight: bold; height: 80px; border-radius: 10px; }
+
+/* line 69, ../compass/style.scss */
+nav { margin: 0 auto; background: whitesmoke; margin-top: 20px; width: 80%; max-width: 1024px; }
+/* line 77, ../compass/style.scss */
+nav ul li { display: inline; }
+/* line 79, ../compass/style.scss */
+nav ul li a { text-decoration: none; color: #000; -webkit-animation-name: menu; -webkit-animation-duration: 2s; -webkit-animation-timing-function: easy-out; -moz-animation-name: menu; -moz-animation-duration: 2s; -moz-animation-timing-function: easy-out; padding: 10px; -webkit-transition: .5s all; -moz-transition: .5s all; -ms-transition: .5s all; -o-transition: .5s all; transition: .5s all; display: inline-block; font-family: arial; font-weight: bold; }
+/* line 104, ../compass/style.scss */
+nav ul li a:hover { color: #fff; background: #019CFF; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1); }
+
+/* line 117, ../compass/style.scss */
+#wrapper { margin: 0 auto; margin-top: 20px; width: 80%; max-width: 1024px; padding: 5px; background: whitesmoke; }
+/* line 125, ../compass/style.scss */
+#wrapper Article, #wrapper aside { display: inline-block; vertical-align: top; }
+/* line 129, ../compass/style.scss */
+#wrapper article { width: 70%; }
+/* line 132, ../compass/style.scss */
+#wrapper article header { margin: 0px; padding: 5px; color: whitesmoke; width: 98.6%; text-align: center; margin-bottom: 5px; font-weight: bold; font-size: 20px; }
+/* line 143, ../compass/style.scss */
+#wrapper article header a { text-decoration: none; color: white; }
+/* line 147, ../compass/style.scss */
+#wrapper article header a:hover { text-decoration: underline; }
+/* line 150, ../compass/style.scss */
+#wrapper article header b { color: black; }
+/* line 154, ../compass/style.scss */
+#wrapper article section { border: 1px solid #bfbfbf; background: #d8d8d8; text-align: justify; font-size: 12px!important; font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif!important; padding: 5px; min-height: 100px; margin-bottom: 10px; }
+/* line 164, ../compass/style.scss */
+#wrapper article section strong { color: #019cff; }
+/* line 168, ../compass/style.scss */
+#wrapper article section h2 { border-radius: 20px; border: 1px solid #a9aeae; padding: 5px; text-align: center; font-weight: bold; font-size: 20px; color: whitesmoke; background: #bac0c0; }
+/* line 180, ../compass/style.scss */
+#wrapper article section span { margin-top: 3px; padding: 5px; display: block; }
+/* line 187, ../compass/style.scss */
+#wrapper aside { width: 29.5%; text-align: center; }
+/* line 192, ../compass/style.scss */
+#wrapper aside .widget h3 { padding: 6px; background: #019cff; margin-bottom: 5px; color: whitesmoke; font-weight: bold; font-size: 18px; }
+/* line 202, ../compass/style.scss */
+#wrapper aside .widget span { padding: 5px; margin-bottom: 6px; display: block; background: #d8d8d8; border: 1px solid #bfbfbf; }
+/* line 209, ../compass/style.scss */
+#wrapper aside .widget span img { -moz-animation-name: redes; -moz-animation-duration: 10s; -moz-animation-delay: .3s; -moz-animation-play-state: running; -moz-animation-iteration-count: infinite; -moz-animation-timing-function: easy-in; -webkit-animation-name: redes; -webkit-animation-duration: 10s; -webkit-animation-play-state: running; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: easy-in; border-radius: 8px; vertical-align: top; -webkit-transition: .3s all; -moz-transition: .3s all; -ms-transition: .3s all; -o-transition: .3s all; transition: .3s all; }
+/* line 233, ../compass/style.scss */
+#wrapper aside .widget span img[src$="facebook.png"] { -webkit-animation-delay: .5s; -moz-animation-delay: .5s; }
+/* line 241, ../compass/style.scss */
+#wrapper aside .widget span img[src$="twitter.png"] { -webkit-animation-delay: 1s; -moz-animation-delay: 1s; }
+/* line 249, ../compass/style.scss */
+#wrapper aside .widget span img[src$="youtube.png"] { -webkit-animation-delay: 1.5s; -moz-animation-delay: 1s; }
+/* line 257, ../compass/style.scss */
+#wrapper aside .widget span img:hover { -moz-animation-play-state: paused; -webkit-animation-play-state: paused; border: 3px #909090 solid; }
+/* line 266, ../compass/style.scss */
+#wrapper aside .widget span #no-a { -webkit-animation: none; -moz-animation: none; }
+
+/* line 274, ../compass/style.scss */
+footer { width: 80%; max-width: 1025px; margin: 0 auto; margin-top: 10px; margin-bottom: 10px; font-weight: bold; font-size: 15px; background: whitesmoke; padding: 9px 5px; }
+
+/* line 287, ../compass/style.scss */
+.error { background-color: #BC1010; border-radius: 4px 4px 4px 4px; color: white; font-weight: bold; margin-left: 16px; margin-top: 6px; padding: 6px 12px; position: absolute; }
+
+/* line 297, ../compass/style.scss */
+.error:before { border-color: transparent #BC1010 transparent transparent; border-style: solid; border-width: 6px 8px; content: ""; display: block; height: 0; left: -16px; position: absolute; top: 8px; width: 0; }
+
+/* line 309, ../compass/style.scss */
+.result_fail { background: none repeat scroll 0 0 #BC1010; border-radius: 20px 20px 20px 20px; color: white; font-weight: bold; padding: 10px 20px; text-align: center; }
+
+/* line 317, ../compass/style.scss */
+.result_ok { background: none repeat scroll 0 0 #1EA700; border-radius: 20px 20px 20px 20px; color: white; font-weight: bold; padding: 10px 20px; text-align: center; }
+
+/* line 325, ../compass/style.scss */
+#google_translate_element { margin: 0px; padding: 0px; }
+
+/* line 329, ../compass/style.scss */
+#dates { width: 100%; vertical-align: bottom; margin-top: 30px; text-align: center; }
+
+/* line 335, ../compass/style.scss */
+#fecha, #autor { display: inline-block; width: 40%; }
+
+/* line 339, ../compass/style.scss */
+#banner { visibility: hidden; }
+
+@-moz-keyframes menu { /* line 343, ../compass/style.scss */
+  0% { -moz-transform: rotateX(1deg); }
+  /* line 346, ../compass/style.scss */
+  50% { background: #019cff; }
+  /* line 349, ../compass/style.scss */
+  100% { -moz-transform: rotateX(360deg); } }
+
+@-moz-keyframes redes { /* line 354, ../compass/style.scss */
+  0% { -moz-transform: rotateX(1deg); }
+  /* line 357, ../compass/style.scss */
+  40% { -moz-transform: rotateX(180deg); }
+  /* line 360, ../compass/style.scss */
+  60% { -moz-transform: rotateX(180deg); }
+  /* line 363, ../compass/style.scss */
+  100% { -moz-transform: rotateX(360deg); } }
+
+@-moz-keyframes menu { /* line 368, ../compass/style.scss */
+  0% { -moz-transform: rotateX(1deg); }
+  /* line 371, ../compass/style.scss */
+  50% { background: #019cff; }
+  /* line 374, ../compass/style.scss */
+  100% { -moz-transform: rotateX(360deg); } }
+
+/* webkit */
+@-webkit-keyframes menu { /* line 381, ../compass/style.scss */
+  0% { -webkit-transform: rotateX(1deg); }
+  /* line 384, ../compass/style.scss */
+  50% { background: #019cff; }
+  /* line 387, ../compass/style.scss */
+  100% { -webkit-transform: rotateX(360deg); } }
+
+@-webkit-keyframes redes { /* line 392, ../compass/style.scss */
+  0% { -webkit-transform: rotateX(1deg); }
+  /* line 395, ../compass/style.scss */
+  40% { -webkit-transform: rotateX(180deg); }
+  /* line 398, ../compass/style.scss */
+  60% { -webkit-transform: rotateX(180deg); }
+  /* line 401, ../compass/style.scss */
+  100% { -webkit-transform: rotateX(360deg); } }
+
+@-webkit-keyframes menu { /* line 406, ../compass/style.scss */
+  0% { -webkit-transform: rotateX(1deg); }
+  /* line 409, ../compass/style.scss */
+  50% { background: #019cff; }
+  /* line 412, ../compass/style.scss */
+  100% { -webkit-transform: rotateX(360deg); } }

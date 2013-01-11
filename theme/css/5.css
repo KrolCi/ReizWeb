@@ -1,0 +1,27 @@
+/* line 6, ../compass/5.scss */
+nav { margin: 0 auto; background: whitesmoke; margin-top: 20px; max-width: 1024px; }
+/* line 13, ../compass/5.scss */
+nav ul li { display: inline; }
+/* line 15, ../compass/5.scss */
+nav ul li #on5 { color: #fff; background: #019CFF; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1); }
+
+/* line 27, ../compass/5.scss */
+form { width: 80%; margin: 10px auto; text-align: center; }
+
+/* line 32, ../compass/5.scss */
+label { display: block; font-weight: bold; }
+
+/* line 36, ../compass/5.scss */
+input { margin-bottom: 15px; border-radius: 8px; border-style: solid; border-width: 3px; border-color: #a3a3a3; padding: 3px; font-weight: bold; }
+
+/* line 47, ../compass/5.scss */
+textarea { padding: 3px; margin-bottom: 15px; margin-bottom: 15px; border-radius: 8px; border-style: solid; border-width: 3px; border-color: #a3a3a3; font-weight: bold; }
+
+/* line 59, ../compass/5.scss */
+.boton { padding: 5px; border: none; transition: all .3s; -o-transition: all .3s; -ms-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; }
+
+/* line 68, ../compass/5.scss */
+.boton:hover { background-color: #019CFF; border-color: #81c4ef; border-style: solid; }
+
+/* line 75, ../compass/5.scss */
+.boton:active { background-color: #760f0f; border-color: #a15757; }

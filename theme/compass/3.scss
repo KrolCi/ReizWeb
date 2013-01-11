@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700);
+
+$fondo:  #bac0c0;
+$centro: 0 auto;
+$azul: #019CFF;
+$blanco: #f5f5f5;
+$gris:  #bcbcbc;
+
+#wrapper article section{
+	text-align: center;
+}
+
+nav{
+	margin: $centro;
+	background: $blanco;
+	margin-top: 20px;
+	max-width: 1024px;
+		
+	ul{
+		li{
+			display: inline;
+			#on3{
+				color: #fff;
+				background: #019CFF;
+					-webkit-transform: scale(1.1);
+						-moz-transform: scale(1.1);
+						-ms-transform: scale(1.1);
+						-o-transform: scale(1.1);
+							transform: scale(1.1);
+			}
+		}
+	}
+}
+#boton-retro{
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 15px auto;
+	width: 150px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+#boton-retro:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+#wrapper{
+	article{
+		#publicidad{
+			min-height: 10px;
+		}
+		section{
+		
+			table{
+				display: block;
+				margin:{
+					top:10px;
+					bottom:10px;
+				}
+				width:100%;
+				text-align: center;
+				
+				tbody{
+					width: 100%;
+					display: block;
+				
+					tr{
+						width: 100%;
+						display: inline-block;
+						td{
+							width: 32%;
+							text-align: center;
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+iframe{
+	-webkit-animation: move 3s infinite linear;
+	-moz-animation: move 3s infinite linear;
+}
+@-webkit-keyframes move{
+	0%{-webkit-transform: rotate(0deg)}
+	25%{-webkit-transform: rotate(2deg)}
+	50%{-webkit-transform: rotate(0deg)}
+	75%{-webkit-transform: rotate(-2deg)}
+}
+@-moz-keyframes move{
+	0%{-moz-transform: rotate(0deg)}
+	25%{-moz-transform: rotate(2deg)}
+	50%{-moz-transform: rotate(0deg)}
+	75%{-moz-transform: rotate(-2deg)}
+}

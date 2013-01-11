@@ -1,0 +1,29 @@
+
+
+$fondo:  #bac0c0;
+$centro: 0 auto;
+$azul: #019CFF;
+$blanco: #f5f5f5;
+$gris:  #bcbcbc;
+
+nav{
+	margin: $centro;
+	background: $blanco;
+	margin-top: 20px;
+	max-width: 1024px;
+		
+	ul{
+		li{
+			display: inline;
+			#on4{
+				color: #fff;
+				background: #019CFF;
+					-webkit-transform: scale(1.1);
+						-moz-transform: scale(1.1);
+						-ms-transform: scale(1.1);
+						-o-transform: scale(1.1);
+							transform: scale(1.1);
+			}
+		}
+	}
+}

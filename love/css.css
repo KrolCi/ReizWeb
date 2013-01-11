@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Loved+by+the+King);
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	font-family: 'Loved by the King', cursive;
+	background: #eeb8ed;
+	text-align: center;
+}
+#wrapper{
+	margin-top: 10%;
+	display: inline-block;
+	box-shadow:0px 0px 14px rgba(0,0,0,.5);
+	background: red;
+	background: -webkit-linear-gradient(top, #f176ed 0%, #ba41c3 80%);
+	background: -moz-linear-gradient(top, #f176ed 0%, #ba41c3 80%);
+	padding: 5px;
+	border: 3px solid #a936b2;
+	border-radius: 8px;
+}
+#wrapper img{
+	border-radius: 200px;
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	box-shadow:0px 0px 8px rgba(0,0,0,.5);
+	-webkit-animation: delado 5s infinite linear;
+	-moz-animation: delado 5s infinite linear;
+	-webkit-transition:1s all;
+	-moz-transition:1s all;
+}
+#wrapper img:hover{
+	border-radius: 8px;
+	-webkit-filter: grayscale(0);
+	-webkit-animation-play-state:paused;
+	-moz-filter: grayscale(0);
+	-moz-animation-play-state:paused;
+}
+h1, h3{
+	color: #911aa3;
+	-webkit-transition: 1s all;
+	-moz-transition: 1s all;
+}
+h1:hover, h3:hover{
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+}
+#love{
+	color:#ed72ea;
+	font-size:35px;
+	font-weight: bold;
+	-webkit-animation: love 5s infinite linear;
+	-moz-animation: love 5s infinite linear;
+	text-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+#love:hover{
+	-webkit-animation: love 5s infinite linear;
+	-moz-animation: love 5s infinite linear;
+}
+
+@-webkit-keyframes love{
+	0%{-webkit-transform:scale(1,1);}
+	50%{color: #620e6f;-webkit-transform:scale(2,2);}
+	100%{}
+}
+@-webkit-keyframes delado{
+	0%{-webkit-transform: rotate(0deg);}
+	25%{-webkit-transform: rotate(-10deg);}
+	50%{-webkit-transform: rotate(0deg);}
+	75%{-webkit-transform: rotate(10deg);}
+	100%{-webkit-transform: rotate(0deg);}
+}
+
+@-moz-keyframes love{
+	0%{-moz-transform:scale(1,1);}
+	50%{color: #620e6f;-moz-transform:scale(2,2);}
+	100%{}
+}
+@-moz-keyframes delado{
+	0%{-moz-transform: rotate(0deg);}
+	25%{-moz-transform: rotate(-10deg);}
+	50%{-moz-transform: rotate(0deg);}
+	75%{-moz-transform: rotate(10deg);}
+	100%{-moz-transform: rotate(0deg);}
+}

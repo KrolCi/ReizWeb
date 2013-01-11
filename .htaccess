@@ -1,0 +1,19 @@
+ErrorDocument 404: "http://reizweb.net/404"
+
+options -multiviews
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase /
+RewriteRule ^inicio$ index.php
+RewriteRule ^design$ layout.php
+RewriteRule ^LibroDeVisitas$ visitas.php
+RewriteRule ^acerca$ about.php
+RewriteRule ^contacto$ contacto.php
+RewriteRule ^404$ 404.php
+</IfModule>
+### BEGIN CLOUDFLARE REWRITE (reizweb.net)
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^reizweb.net$ [NC]
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ http://www.reizweb.net/$1 [R=301,L]
+### END CLOUDFLARE REWRITE ###################

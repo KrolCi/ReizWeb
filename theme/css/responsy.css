@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1020px) { /* line 3, ../compass/responsy.scss */
+  header span { height: 100px; }
+  /* line 8, ../compass/responsy.scss */
+  #wrapper article { width: 70%; }
+  /* line 10, ../compass/responsy.scss */
+  #wrapper article header { padding: 5px 0; width: 100%; }
+  /* line 16, ../compass/responsy.scss */
+  #wrapper aside { width: 29.3%; } }
+@media only screen and (max-width: 800px) { /* line 22, ../compass/responsy.scss */
+  header { width: 100%; padding: 0; text-align: center; margin: 0px; height: 210px; }
+  /* line 29, ../compass/responsy.scss */
+  header h1 { padding-top: 10px; font-size: 70px; }
+  /* line 33, ../compass/responsy.scss */
+  header span { margin: 5px; width: 90%; height: 100px; }
+  /* line 39, ../compass/responsy.scss */
+  nav { text-align: center; width: 100%; margin-top: 10px; }
+  /* line 44, ../compass/responsy.scss */
+  #wrapper { width: 90%; }
+  /* line 47, ../compass/responsy.scss */
+  #wrapper article { width: 100%; }
+  /* line 49, ../compass/responsy.scss */
+  #wrapper article header { height: 20px; width: 100%; padding: 5px 0px; }
+  /* line 54, ../compass/responsy.scss */
+  #wrapper article section { text-align: center; }
+  /* line 58, ../compass/responsy.scss */
+  #wrapper aside { width: 100%; }
+  /* line 62, ../compass/responsy.scss */
+  footer { width: 100%; padding: 5px 0px; text-align: center; } }
+@media only screen and (max-width: 480px) { /* line 69, ../compass/responsy.scss */
+  header { width: 100%; padding: 0; text-align: center; margin: 0px; height: 210px; }
+  /* line 76, ../compass/responsy.scss */
+  header h1 { padding-top: 10px; font-size: 60px; }
+  /* line 80, ../compass/responsy.scss */
+  header span { margin: 5px; width: 90%; height: 100px; }
+  /* line 86, ../compass/responsy.scss */
+  nav { text-align: center; width: 100%; margin-top: 10px; }
+  /* line 91, ../compass/responsy.scss */
+  #wrapper { width: 90%; }
+  /* line 94, ../compass/responsy.scss */
+  #wrapper article { width: 100%; }
+  /* line 96, ../compass/responsy.scss */
+  #wrapper article header { height: 20px; width: 100%; padding: 5px 0px; }
+  /* line 103, ../compass/responsy.scss */
+  #wrapper article section #link { width: 100%; }
+  /* line 106, ../compass/responsy.scss */
+  #wrapper article section #link #desc { margin-top: 5px; width: 100%; display: block; }
+  /* line 110, ../compass/responsy.scss */
+  #wrapper article section #link #desc a { width: 80%; }
+  /* line 116, ../compass/responsy.scss */
+  #wrapper article section #link #demo { width: 100%; display: block; }
+  /* line 120, ../compass/responsy.scss */
+  #wrapper article section #link #demo a { width: 85%; }
+  /* line 127, ../compass/responsy.scss */
+  #wrapper aside { width: 100%; }
+  /* line 130, ../compass/responsy.scss */
+  #wrapper aside #none { display: none; }
+  /* line 135, ../compass/responsy.scss */
+  footer { width: 100%; padding: 5px 0px; text-align: center; } }
